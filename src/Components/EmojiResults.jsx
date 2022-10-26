@@ -11,17 +11,15 @@ const EmojiResults = ({searchVal}) => {
     : jsonArray
   );
   
-  // console.log('matches before splice: ', matches);
   matches.splice(20);
-  console.log('matches: ', matches);
   
     return (
-      <>
+      <div style={{ width: "600px", margin: "0 auto"}}>
         <div>EmojiResults</div>
         <div>
           {matches.map((obj, i) => (<EmojiRow key={i} data={obj}/>))}
         </div>
-      </>
+      </div>
     )
 }
 

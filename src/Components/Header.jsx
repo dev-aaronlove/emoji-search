@@ -1,9 +1,5 @@
 import React from "react";
 
-const EmojiHeader = () => {
-  return (
-    <div>EmojiHeader</div>
-  )
-}
+const EmojiHeader = () => <h6>🐯 Emoji Search 🥳</h6>
 
 export default EmojiHeader;

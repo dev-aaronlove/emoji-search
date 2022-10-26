@@ -5,12 +5,11 @@ import SearchInput from "./SearchInput";
 
 const EmojiSearchContainer = () => {
   return (
-    <>
-      <div>EmojiSearchContainer</div>
+    <div style={{ margin: "10px" }}>
       <EmojiHeader />
       <SearchInput />
       <EmojiResults />
-    </>
+    </div>
   )
 }
 
