@@ -6,8 +6,8 @@ const EmojiResults = ({searchVal}) => {
   let matches = [];
 
   matches = (
-    (searchVal) 
-    ? jsonArray.filter(item => item.includes(searchVal))
+    (searchVal !== '') 
+    ? jsonArray.filter(item => item.title.includes(searchVal))
     : jsonArray
   );
   
