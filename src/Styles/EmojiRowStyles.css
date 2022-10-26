@@ -1,7 +1,22 @@
 .emoji-row { 
-  display: flex; 
-  justify-content: start;
+  display: flex;
+  flex-direction: row;
   border: 1px solid black;
   margin: 10px;
   padding: 2px;
+  align-items: center;
+}
+
+.emoji-row:hover { 
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.emoji { 
+  display: flex;
+  flex: 3;
+}
+
+.emoji-copy-msg { 
+  font-size: 10px;
+  flex: 1;
 }
